@@ -1,0 +1,96 @@
+html,
+body {
+  background-color: rgb(127, 146, 255);
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.container-fluid {
+  background-color: black;
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar-nav a:hover {
+  background-color: red;
+  padding: 19px;
+  margin: 0%;
+}
+
+.navbar {
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar img {
+  width: 45px;
+  margin: 0%;
+  background-color: red;
+}
+
+.navbar button {
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar-brand {
+  background-color: red;
+  padding: 1%;
+  margin: 0%;
+}
+
+
+
+.justify-self-end {
+  justify-self: end;
+}
+
+.right-side {
+  justify-self: flex-end;
+  display: flex;
+}
+
+.right-side ul {
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+.containerOne {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pic img {
+  width: 350px;
+  margin-left: 40%;
+}
+
+.Text p {
+  flex-wrap: wrap;
+}
